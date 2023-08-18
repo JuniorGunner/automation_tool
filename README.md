@@ -1,13 +1,44 @@
-# one4tech_test
+# 📑 Processador de PDFs do TST
 
-Desafio Técnico One4
+Este projeto é uma ferramenta de automação que baixa os cadernos em PDF do TST, extrai os números de processo e gera planilhas Excel separadas por data. Além disso, o script identifica processos duplicados e gera um relatório correspondente.
 
-Dado o link do tribunal abaixo, capture:
+## 🛠️ Tecnologias Utilizadas
 
-* Baixar os cadernos do TST da última semana;
-* Extrair os números de processo de cada caderno;
-* Gerar planilhas de saída com todos os números de processos separados por dia da semana:
-  * Ex. TST 13/10/2022.xlsx;
-* Caso um processo apareça repetido em mais de um dia, gerar relatório de duplicatas com os respectivos processos e suas datas.
+- Python 3
+- Selenium
+- PyPDF
+- Pandas
 
-Link do tribunal: https://dejt.jt.jus.br/dejt/f/n/diariocon
+## 🚀 Começando
+
+Siga estas instruções para executar este projeto localmente.
+
+### Pré-requisitos
+
+- Python 3.x instalado
+- Pip (Gerenciador de pacotes do Python)
+
+### 📥 Clonando o Repositório
+
+Para clonar o repositório, execute o seguinte comando em seu terminal:
+
+```bash
+git clone https://github.com/JuniorGunner/one4tech_test
+```
+
+### 🛠️ Instalando as Dependências
+Navegue até a pasta do projeto clonado e execute o seguinte comando para instalar as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 🏃 Executando o Script
+Dentro da pasta do projeto, execute o seguinte comando:
+
+```bash
+python tst_bot.py
+```
+Obs.: o comando pode variar de acordo com o seu Sistema Operacional (Ex.: python3, py, etc)
+
+Isso iniciará o script, e você verá os arquivos Excel sendo gerados na pasta especificada no script.
