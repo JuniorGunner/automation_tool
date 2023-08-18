@@ -18,7 +18,8 @@ def date_range():
 
 
 def download_pdf(start_date: str, end_date: str):
-    driver = webdriver.Chrome('/etc/alternatives/google-chrome')  # set the path to chromedriver
+    driver = webdriver.Chrome('/usr/local/bin/chromedriver')  # set the path to chromedriver
+    print(f"{driver=}")
     driver.get('https://dejt.jt.jus.br/dejt/f/n/diariocon')
 
     start_date_combo = driver.find_element_by_id('corpo:formulario:dataIni') 
