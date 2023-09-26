@@ -1,44 +1,47 @@
-# 📑 Processador de PDFs do TST
+# 📑 TST PDF Processor
 
-Este projeto é uma ferramenta de automação que baixa os cadernos em PDF do TST, extrai os números de processo e gera planilhas Excel separadas por data. Além disso, o script identifica processos duplicados e gera um relatório correspondente.
+This project is an automation tool designed to download PDF journals from Brazil's Superior Labor Court (TST), extract the case numbers, and generate Excel spreadsheets separated by date. Additionally, the script identifies duplicate cases and generates a corresponding report.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tech Stack Used
 
-- Python 3
-- Selenium
-- PyPDF
-- Pandas
+- 🐍 Python 3
+- 🌐 Selenium
+- 📄 PyPDF
+- 🐼 Pandas
 
-## 🚀 Começando
+## 🚀 Getting Started
 
-Siga estas instruções para executar este projeto localmente.
+Follow these instructions to run this project locally.
 
-### Pré-requisitos
+### Prerequisites
 
-- Python 3.x instalado
-- Pip (Gerenciador de pacotes do Python)
+- Python 3.x installed
+- Pip (Python Package Manager)
 
-### 📥 Clonando o Repositório
+### 📥 Cloning the Repository
 
-Para clonar o repositório, execute o seguinte comando em seu terminal:
+To clone the repository, run the following command in your terminal:
 
 ```bash
 git clone https://github.com/JuniorGunner/one4tech_test
 ```
 
-### 🛠️ Instalando as Dependências
-Navegue até a pasta do projeto clonado e execute o seguinte comando para instalar as dependências:
+### 🛠️ Installing Dependencies
+
+Navigate to the project folder and run the following command to install the dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 🏃 Executando o Script
-Dentro da pasta do projeto, execute o seguinte comando:
+### 🏃 Running the Script
+
+Within the project folder, execute the following command:
 
 ```bash
 python tst_bot.py
 ```
-Obs.: o comando pode variar de acordo com o seu Sistema Operacional (Ex.: python3, py, etc)
 
-Isso iniciará o script, e você verá os arquivos Excel sendo gerados na pasta especificada no script.
+Note: the command may vary depending on your Operating System (e.g., python3, py, etc).
+
+This will start the script, and you will see Excel files being generated in the folder specified in the script.
