@@ -1,6 +1,6 @@
-# 📑 TST PDF Processor
+# 📑 TST (Brazilian Superior Labor Court) website Automation Tool
 
-This project is an automation tool designed to download PDF journals from Brazil's Superior Labor Court (TST), extract the case numbers, and generate Excel spreadsheets separated by date. Additionally, the script identifies duplicate cases and generates a corresponding report.
+This project is an automation tool designed to download PDF journals from Brazil's Superior Labor Court (TST) website, extract the case numbers, and generate Excel spreadsheets separated by date. Additionally, the script identifies duplicate cases and generates a corresponding report.
 
 ## 🛠️ Tech Stack Used
 
