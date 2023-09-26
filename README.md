@@ -23,7 +23,7 @@ Follow these instructions to run this project locally.
 To clone the repository, run the following command in your terminal:
 
 ```bash
-git clone https://github.com/JuniorGunner/one4tech_test
+git clone git@github.com:JuniorGunner/tst_automation_tool.git
 ```
 
 ### 🛠️ Installing Dependencies
